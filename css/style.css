@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family:Dancing Script;
+    color:white;
+    background-color: #02010a;
+}
+header{
+    background-color: #5b7989;
+    border-radius: 10px 10px 0 0;
+    height: 90px;
+}
+ h1{
+     text-shadow: 2px 2px  #02010a;
+     float: left;
+     width: 60%;
+     padding: 20px;
+ }
+
+ header div nav{
+     width: 40%;
+     
+
+ }
+header div{
+    display: inline-block;
+}
+ul{
+    overflow: hidden;
+    text-align: end;
+    padding:20px 30px 0 0;
+      
+}
+ ul li{
+     list-style-type: none;
+     display: inline;
+       
+ }
+ li a{
+     display: inline-block;
+     font-size: 30px;
+ }
+
+ a:link{
+    color: white;
+ }
+ a:visited{
+     color: black;
+ }
+/* inicio de media*/
+ @media (min-width:100px) and (max-width:400px){
+     header{
+         height: 150px;
+     }
+    h1{
+        font-size:25px ;
+        width: 100%;
+        order: 1;
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    } 
+    nav{
+         width: 100%;
+         
+         order: 2;
+     }
+
+     li{
+         padding: 10px;
+         font-size: 9px;
+     };
+ }
+
+.img1{
+     width: 100%;
+     height: 550px;
+     background-color:  #82c3a6;
+ }
+
+  .img1 img{
+    height: 500px;
+    width: 90%;
+    margin: 10px 40px 0 70px;
+ }
+
+ @media (min-width:100px) and (max-width:400px){
+     .img1{
+         width: 100%;
+         height: 450px;
+         order: 3;
+     }
+    .img1 img{
+         width:90%;
+         height: 400px;
+         padding:0px auto;
+         margin: 10px 30px; 
+     }
+ }
+ 
+ @media (min-width:400px) and (max-width:1024px)
+ {
+    .img1 img{
+        width:90%;
+        height: 400px;
+        padding:0px auto;
+        margin: 10px 39px;
+        order: 1 
+    }
+ }
+  /*fin de la media*/
+  /*inicio del section*/
+ .img2{
+     background-color:  #d5c75f;
+     display: flex;
+     height: 400px;
+ }
+
+ .contenedor-img2
+ {
+     width: 100%;
+     height: 320px;
+     
+     
+ }
+ .imagen2{
+        width: 90%;
+        height: 350px;
+        margin: 20px 20px 20px 20px;
+        border: 2px black solid;
+        margin: 4px 2px 2px 2px;
+ }
+
+ .imagen2:hover{
+    transform: rotate(10deg);
+    box-shadow: 2px 2px  #82c3a6;
+    border: none;
+ }
+
+
+ .contenedor-img3{
+    width: 100%; 
+ }
+
+ .imagen3{
+    width: 90%;
+    height: 350px;
+    margin: 20px 20px 20px 39px;
+    border: 2px black solid;
+    display: inline-block;
+ }
+
+ .imagen3:hover{
+     transform: translateX(20px) translateY(5px);
+     box-shadow: 2px 2px #82c3a6;
+     border: none;
+ }
+
+ @media (min-width:100px) and (max-width:400px){
+     body{
+         width: 100%;
+     }
+    .img2{
+        width: 100%;
+        height: 850px;
+        order: 3;
+        
+        display: block;
+    }
+   .paisaje2 {
+        width:90%;
+        height: 400px;
+        padding:0px auto;
+        margin: 0px ; 
+        padding: 10px 2px 2px 30px ;
+        display: block;
+    }
+     .contenedor-img3
+     {
+         width: 100%;
+         height: 310px;
+         margin: 70px 0px 2px 0px ;
+        
+     }
+
+     .imagen-3{
+         margin: 0px 10px 10px 19px;
+     }
+    .paisaje3{
+        width:90%;
+        height:300px;
+        padding: 0px  20px 10px 0px;
+       
+    }
+}
+/*fin del section*/
+ /* inicio de pie de pagina*/
+
+ .pie-pagina{
+     border-radius: 0 0 10px 10px;
+     color: black;
+     background-color:  #C6d5c5;
+     width: 100%;
+     height: 150px;
+     display: flex;
+    
+ }
+ 
+ .contacto{
+     width: 23%;
+     margin: 0 0 0 20px;
+     
+ }
+
+ .politicas{
+    width: 23%;
+    
+ }
+
+ .redes
+ {
+    width: 23%;
+    
+ }
+
+ .derechos{
+    width: 23%;
+    
+ }
+ .contacto li{
+    list-style-type: none;
+}
+
+ .redes li{
+     list-style-type: none;
+ }
+
+ .logo-facebook{
+     width: 30px;
+     height: 30px;
+     list-style-type: none;
+ }
+
+ .logo-instagram{
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+}
+
+@media (min-width:100px) and (max-width:400px){
+    
+}
+
+ /*fin de pie de pagina*/
+/*inicio de media*/
+@media (min-width:100px) and (max-width:400px){
+    body{
+        width: 100%;
+    }
+
+    .imagen-1, .imagen-2,.imagen-3,.imagen-4,.imagen-5,.imagen-6{
+        width: 100%;
+        display: block;
+    }
+
+    .contenedor-principal div{
+        width: 100%;
+        display: block;
+    }
+
+    
+    
+   .contacto ol,li{
+       width: 100%;
+       display: block;
+       font-size: 20px;
+   }
+   .redes p{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    
+}
+.politicas p{
+  display: flex;
+    margin: 0 0 0 20px;
+}
+.pie-pagina div strong{
+    float: left;
+    width: 100%;
+    
+}
+    .pie-pagina div {
+
+    }
+
+   .pie-pagina {
+    width: 100%;
+    height: 700px;
+    display: block;
+}
+
+
+}
+/*fin de media*/
+
+
+
+ 
+ 

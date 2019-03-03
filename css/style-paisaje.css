@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family:Dancing Script;
+    color:white;
+    background-color: #02010a;
+}
+header{
+    background-color: #5b7989;
+    border-radius: 10px 10px 0 0;
+    height: 90px;
+}
+ h1{
+     text-shadow: 2px 2px  #02010a;
+     float: left;
+     width: 60%;
+     padding: 20px;
+ }
+
+ header div nav{
+     width: 40%;
+     
+
+ }
+header div{
+    display: inline-block;
+}
+ul{
+    overflow: hidden;
+    text-align: end;
+    padding:20px 30px 0 0;
+      
+}
+ ul li{
+     list-style-type: none;
+     display: inline;
+       
+ }
+ li a{
+     display: inline-block;
+     font-size: 30px;
+ }
+
+ a:link{
+    color: white;
+ }
+ a:visited{
+     color: black;
+ }
+/* inicio de media*/
+ @media (min-width:100px) and (max-width:400px){
+     header{
+         height: 150px;
+     }
+    h1{
+        font-size:25px ;
+        width: 100%;
+        order: 1;
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    } 
+    nav{
+         width: 100%;
+         
+         order: 2;
+     }
+
+     li{
+         padding: 10px;
+         font-size: 9px;
+     };
+ }
+/*inicio del section*/
+ .contenedor-principal{
+     
+     background-color:saddlebrown; 
+ }
+ .contenedor-1{
+     display: flex;
+ }
+ .imagen-1{
+    
+     height: 400px;
+     
+ }
+ .degradado-1{
+     width: 90%;
+     height: 300px;
+     padding: 20px;
+    
+ }
+ .imagen-2{
+    
+    height: 400px;
+    
+}
+.degradado-2{
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+    filter: grayscale(90%)
+}
+.imagen-3{
+    
+    height: 400px;
+    padding: 20px;
+}
+.degradado-3{
+    width: 90%;
+    height: 300px;
+    padding: 0px;
+    filter: sepia(90%)
+}
+.contenedor-2{
+    display: flex;
+}
+.imagen-4{
+    
+    height: 400px;
+    
+    
+}
+.degradado-4{
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+    filter: grayscale(60%)
+}
+.imagen-5{
+   
+    height: 400px;
+   
+}
+.degradado-5{
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+    filter: grayscale(40%)
+}
+.imagen-6{
+   
+    height: 400px;
+    
+}
+.degradado-6{
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+    filter: grayscale()
+}
+
+
+/* fin del section*/
+ /* inicio de pie de pagina*/
+
+ .pie-pagina{
+    border-radius: 0 0 10px 10px;
+    color: black;
+    background-color:  #C6d5c5;
+    width: 100%;
+    height: 150px;
+    display: flex;
+   
+}
+
+.contacto{
+    width: 23%;
+    margin: 0 0 0 20px;
+    
+}
+
+.politicas{
+   width: 23%;
+   
+}
+
+.redes
+{
+   width: 23%;
+   
+}
+
+.derechos{
+   width: 23%;
+   
+}
+.contacto li{
+   list-style-type: none;
+}
+
+.redes li{
+    list-style-type: none;
+}
+
+.logo-facebook{
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+}
+
+.logo-instagram{
+   width: 30px;
+   height: 30px;
+   list-style-type: none;
+}
+
+@media (min-width:100px) and (max-width:400px){
+   
+}
+
+/*fin de pie de pagina*/
+
+
+/*inicio de media*/
+    @media (min-width:100px) and (max-width:400px){
+        body{
+            width: 100%;
+        }
+
+        .imagen-1, .imagen-2,.imagen-3,.imagen-4,.imagen-5,.imagen-6{
+            width: 100%;
+            display: block;
+        }
+
+        .contenedor-principal div{
+            width: 100%;
+            display: block;
+        }
+
+        
+        
+       .contacto ol,li{
+           width: 100%;
+           display: block;
+           font-size: 20px;
+       }
+       .redes p{
+        width: 100%;
+        display: block;
+        font-size: 20px;
+        
+    }
+    .politicas p{
+      display: flex;
+        margin: 0 0 0 20px;
+    }
+    .pie-pagina div strong{
+        float: left;
+        width: 100%;
+        
+    }
+        .pie-pagina div {
+
+        }
+    
+       .pie-pagina {
+        width: 100%;
+        height: 700px;
+        display: block;
+    }
+
+
+    }
+/*fin de media*/
